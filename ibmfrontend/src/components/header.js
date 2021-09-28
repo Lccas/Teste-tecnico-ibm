@@ -9,8 +9,8 @@ export default function Header() {
         elevation={0}
       >
         <Toolbar className="Header">
-          <a href="/"><img src={logo} alt="logo" className="Logo"/></a>
-          <span className="Title">Hashtag Search</span>          
+          <a href="/"><img src={logo} alt="logo" className="Header-logo"/></a>
+          <span className="Header-title">Hashtag Search</span>          
         </Toolbar>
       </AppBar>
     );

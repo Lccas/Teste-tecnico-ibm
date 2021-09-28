@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header';
+import Footer from './components/footer';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages/home';
 import Login from './pages/login';
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Header/>
         <h1>hello world</h1>
+        <Footer/>
       </div>
 
       <Route path="/" exact component={Login}/>

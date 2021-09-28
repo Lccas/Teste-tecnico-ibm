@@ -2,11 +2,11 @@
   background-color: #15202b;
 }
 
-.Logo {
+.Header-logo {
   width: 50px;
   margin-right: 10px;
 }
 
-.Title {
+.Header-title {
   font-size: 18px !important;
 }
