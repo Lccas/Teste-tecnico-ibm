@@ -1,16 +1,18 @@
 import React from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
+import ContainerBody from './components/container';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages/home';
 import Login from './pages/login';
+import '../src/styles/container.css';
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App" overflow="hidden">
         <Header/>
-        <h1>hello world</h1>
+        <ContainerBody/>
         <Footer/>
       </div>
 

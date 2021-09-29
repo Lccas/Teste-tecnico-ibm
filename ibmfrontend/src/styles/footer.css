@@ -10,3 +10,9 @@
   left: 0;
   bottom: 0;
 }
+
+@media screen and (max-width: 450px) {
+  .Footer-container {
+    display: none !important;
+  }
+}
