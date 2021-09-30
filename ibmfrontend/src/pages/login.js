@@ -1,11 +1,16 @@
-import React from "react";
-import LoginButton from "../components/login";
-import ContainerBody from "../components/container";
+import React from 'react';
+// import { Container } from '@material-ui/core';
+import { Box, Paper } from '@material-ui/core';
+import '../styles/container.css';
+import LoginButton from '../components/loginbutton';
 
-export default function Login(){
-    return(
-        <ContainerBody>
-            <LoginButton/>
-        </ContainerBody>
-    )
+export default function LoginPage(){ 
+    return (
+        <Box p={{ xs: 2, sm:2, md:5}} className="Container-box">
+            <Paper className="Container-paper">
+                <h1>Login</h1>
+                <LoginButton/>
+            </Paper>
+        </Box>
+    );
 }

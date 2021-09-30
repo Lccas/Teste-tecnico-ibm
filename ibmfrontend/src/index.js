@@ -10,9 +10,9 @@ ReactDOM.render(
     clientId="Yl1SLQB15SJAO7YYhVvKl9p5f5D21oXd"
     redirect_uri={'https://127.0.0.1:3000/home'}
   >
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
   </Auth0Provider>,
   document.getElementById('root')
 );

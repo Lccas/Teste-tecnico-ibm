@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/header';
 import Footer from './components/footer';
-import ContainerBody from './components/container';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
 import Home from './pages/home';
 import Login from './pages/login';
@@ -12,12 +11,10 @@ function App() {
     <Router>
       <div className="App" overflow="hidden">
         <Header/>
-        <ContainerBody/>
+        <Route path="/" exact component={Login}/>
+        <Route path="/home" component={Home}/>
         <Footer/>
       </div>
-
-      <Route path="/" exact component={Login}/>
-      <Route path="/home" component={Home}/>
     </Router>
   )
 }
