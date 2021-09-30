@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-color: lightgray;
+  background-color: #15202b;
   width: 100%;
   height: 100%;
   position: relative;
@@ -13,4 +13,6 @@
   top: 0;
   left: 0;
   position: relative;
+  background-image: url("https://besthqwallpapers.com/img/download/30-9-2021/lujiazui-shanghai-4k-skyline-lokatse-besthqwallpapers.com-1920x1080.jpg");
+  background-size: cover;
 }
