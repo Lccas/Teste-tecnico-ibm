@@ -16,3 +16,36 @@
   background-image: url("https://besthqwallpapers.com/img/download/30-9-2021/lujiazui-shanghai-4k-skyline-lokatse-besthqwallpapers.com-1920x1080.jpg");
   background-size: cover;
 }
+
+.Container-map {
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  position: relative;
+  background-image: url("../images/World_Map_Blank.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.Container-search {
+  margin-left: 43% !important;
+  margin-top: 5% !important;
+  color: white !important;
+  background: #001e3c !important;
+  border-radius: 5px;
+}
+
+.MuiInputLabel-filled {
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .Container-search {
+    margin-left: 0 !important;
+    width: 100%;
+    position: sticky;
+    margin-top: 35px !important;
+  }
+}
